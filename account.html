@@ -1,109 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:wght@300&display=swap"
-            rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Square+Peg&display=swap"
-            rel="stylesheet">
-            
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <title>ECOMMERCE STORE</title>
-        <link rel="stylesheet" href="account.css">
-    </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Square+Peg&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <title>ECOMMERCE STORE</title>
+  <link rel="stylesheet" href="account.css">
+</head>
+
 <body>
-    <nav class="navbar">
-        <div class="left">TheStore</div>
-        <div class="right">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="account.html">Account</a></li>
-                <li><a href="review.html">Reviews</a></li>
-                <li><a href="products.html"><i class="bi bi-cart"></i></a></li>
-                <li><a href="products.html"><i class="bi bi-search"></i></a></li>
-            </ul>
+  <nav class="navbar">
+    <div class="left">TheStore</div>
+    <div class="right">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="review.html">Reviews</a></li>
+        <li><a href="products.html"><i class="bi bi-cart"></i></a></li>
+        <li><a href="products.html"><i class="bi bi-search"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="bg-image">
+    <div class="account-info">
+      <form action="">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="submit" value="Edit Info">
+      </form>
+      <div class="logout">
+        <div class="btn">
+          <a href="login.html" style="text-decoration: none; color: white;">
+            Log Out
+          </a>
         </div>
-    </nav>
+      </div>
+    </div>
+    <div class="orders-section">
+      <div class="order">
+        <img src="unpaid.png" alt="Unpaid Order">
+        <span>Unpaid</span>
+      </div>
+      <div class="order">
+        <img src="TBS.png" alt="To Be Shipped Order">
+        <span>To be shipped</span>
+      </div>
+      <div class="order">
+        <img src="shipped.png" alt="Shipped Order">
+        <span>Shipped</span>
+      </div>
+      <div class="order">
+        <img src="TBR.png" alt="To Be Reviewed Order">
+        <span>To be reviewed</span>
+      </div>
+    </div>
 
-<div class="bg-image">
-  <div class="account-info">
-    <form action="">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username">
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password">
-      <label for="dob">Date of Birth:</label>
-      <input type="date" id="dob" name="dob">
-      <label for="gender">Gender:</label>
-      <input type="radio" id="male" name="gender" value="male">
-      <label for="male">Male</label>
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">Female</label>
-      <input type="submit" value="Edit Info">
-    </form>
-    <button class="btn">Log Out</button>
-  </div>
-  <div class="orders-section">
-    <div class="order">
-      <img src="unpaid.png" alt="Unpaid Order">
-      <span>Unpaid</span>
-    </div>
-    <div class="order">
-      <img src="TBS.png" alt="To Be Shipped Order">
-      <span>To be shipped</span>
-    </div>
-    <div class="order">
-      <img src="shipped.png" alt="Shipped Order">
-      <span>Shipped</span>
-    </div>
-    <div class="order">
-      <img src="TBR.png" alt="To Be Reviewed Order">
-      <span>To be reviewed</span>
+    <div class="address-section">
+      <div class="address">
+        <h3>Address #1</h3>
+        <p>Name: John Doe</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Country: Wonderland</p>
+        <p>City: Hearts</p>
+        <p>City Address: 123 Red Queen Street</p>
+      </div>
+      <div class="address">
+        <h3>Address #2</h3>
+        <p>Name: Alice Liddell</p>
+        <p>Phone: (555) 987-6543</p>
+        <p>Country: Wonderland</p>
+        <p>City: Hearts</p>
+        <p>City Address: 42 White Rabbit Lane</p>
+      </div>
+      <button class="add-address-btn">Add more</button>
     </div>
   </div>
-
-  <div class="address-section">
-    <div class="address">
-      <h3>Address #1</h3>
-      <p>Name: John Doe</p>
-      <p>Phone: (555) 123-4567</p>
-      <p>Country: Wonderland</p>
-      <p>City: Hearts</p>
-      <p>City Address: 123 Red Queen Street</p>
-    </div>
-    <div class="address">
-      <h3>Address #2</h3>
-      <p>Name: Alice Liddell</p>
-      <p>Phone: (555) 987-6543</p>
-      <p>Country: Wonderland</p>
-      <p>City: Hearts</p>
-      <p>City Address: 42 White Rabbit Lane</p>
-    </div>
-    <button class="add-address-btn">Add more</button>
-  </div>
-</div>
-<footer class="footerr">
+  <footer class="footerr">
     <ul class="firstline">
-        <li>Privacy policy</li>
-        <li>Refund policy</li>
-        <li>Shipping policy</li>
-        <li>Terms of service</li>
+      <li>Privacy policy</li>
+      <li>Refund policy</li>
+      <li>Shipping policy</li>
+      <li>Terms of service</li>
     </ul>
     <div class="socialaccounts">
-        <ul>
-            <li><i class="bi bi-facebook"></i></li>
-            <li><i class="bi bi-instagram"></i></li>
-            <li><i class="bi bi-twitter"></i></li>
-        </ul>
+      <ul>
+        <li><i class="bi bi-facebook"></i></li>
+        <li><i class="bi bi-instagram"></i></li>
+        <li><i class="bi bi-twitter"></i></li>
+      </ul>
     </div>
     <div class="copyright">
-        Copyright <i class="bi bi-c-circle"></i> 2022 Wholesale
+      Copyright <i class="bi bi-c-circle"></i> 2022 Wholesale
     </div>
-</footer>
+  </footer>
 
 </body>
+
 </html>

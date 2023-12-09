@@ -1,191 +1,235 @@
 .navbar {
 
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    align-items: center;
-    height: 104px;
-    background-color: #232323;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  height: 104px;
+  background-color: #232323;
 }
+
 nav .left {
-    font-family: 'Square Peg', sans-serif;
-    font-size: 60px;
-    margin-left: 81px;
-    color: white;
+  font-family: 'Square Peg', sans-serif;
+  font-size: 60px;
+  margin-left: 81px;
+  color: white;
 }
+
 nav .right {
-    font-size: 16px;
-    margin-left: 495px;
+  font-size: 16px;
+  margin-left: 495px;
 }
+
 nav ul {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
 nav ul li {
-    list-style: none;
+  list-style: none;
 }
+
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    margin: 35px;
+  text-decoration: none;
+  color: white;
+  margin: 35px;
 }
+
 nav ul li a:hover {
-    color: rgb(223, 52, 52);
-    font-size: 1.05rem;
+  color: rgb(223, 52, 52);
+  font-size: 1.05rem;
 }
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .bg-image {
-    background-image: url('image.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 1400px; 
-    position: relative; /* Make sure this is relative so that children can be positioned absolutely within */
-    z-index: -1; /* Remove this line as it will put the background behind everything else */
-    padding-bottom: 20px; /* Add padding to ensure space for the orders section */
-  }
-  
-  /* Styles for the account information section */
-  .account-info {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    margin: 0 auto; /* Center the div */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  input[type="text"], input[type="password"], input[type="date"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  input[type="radio"] {
-    margin-right: 5px;
-  }
-  
-  input[type="submit"], .btn {
-    width: 100%;
-    background-color: #af4c4c;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover, .btn:hover {
-    background-color: #45a049;
-  }
-  
-  .orders-section {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin-top: 20px; /* This margin-top pushes the orders-section below the account-info */
-  }
-  
-  .order {
-    text-align: center;
-    width: 10%; /* Adjust the width as necessary */
-  }
-  
-  .order img {
-    width: 100%; /* This ensures all images are the same width */
-    height: auto; /* This ensures the image heights scale with the width */
-    border-radius: 5px; /* Optional: Adds rounded corners to the images */
-  }
-  
-  /* Additional CSS for transparent background for images if needed */
-  .order img {
-    background-color: transparent;
-  }
-  .order span {
-    display: block;
-    margin-top: 5px;
-    font-weight: bold;
-  }
-  
-  .address-section {
-    background-color: rgba(255, 255, 255, 0.7); /* Translucent background */
-    padding: 20px;
-    margin-top: 20px; /* Spacing from the orders section */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    position: relative; /* To position the add button absolutely within this section */
-  }
-  
-  .address {
-    border: 1px solid #ccc; /* Boundary box */
-    padding: 20px;
-    margin: 10px; /* Spacing between address boxes */
-    width: calc(50% - 40px); /* Adjust the width for the padding and border */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
-    background-color: #fff; /* Solid white background for the address boxes */
-    border-radius: 5px; /* Rounded corners for the address boxes */
-  }
-  
-  .add-address-btn {
-    width: auto;
-    padding: 10px 20px;
-    cursor: pointer;
-    position: absolute;
-    right: 20px; /* Position to the bottom-right corner of the address-section */
-    bottom: 20px;
-    background-color: #af4c4c;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds subtle shadow for depth */
-  }
-  .footerr {
-    height: 440px;
-    background-color: #232323;
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
+.bg-image {
+  background-image: url('image.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 1400px;
+  position: relative;
+  /* Make sure this is relative so that children can be positioned absolutely within */
+  z-index: -1;
+  /* Remove this line as it will put the background behind everything else */
+  padding-bottom: 20px;
+  /* Add padding to ensure space for the orders section */
+}
+
+/* Styles for the account information section */
+.account-info {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  margin: 0 auto;
+  /* Center the div */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"],
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #af4c4c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+.btn:hover {
+  background-color: #45a049;
+}
+
+.orders-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 20px;
+  /* This margin-top pushes the orders-section below the account-info */
+}
+
+.order {
+  text-align: center;
+  width: 10%;
+  /* Adjust the width as necessary */
+}
+
+.order img {
+  width: 100%;
+  /* This ensures all images are the same width */
+  height: auto;
+  /* This ensures the image heights scale with the width */
+  border-radius: 5px;
+  /* Optional: Adds rounded corners to the images */
+}
+
+/* Additional CSS for transparent background for images if needed */
+.order img {
+  background-color: transparent;
+}
+
+.order span {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.address-section {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Translucent background */
+  padding: 20px;
+  margin-top: 20px;
+  /* Spacing from the orders section */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  /* To position the add button absolutely within this section */
+}
+
+.address {
+  border: 1px solid #ccc;
+  /* Boundary box */
+  padding: 20px;
+  margin: 10px;
+  /* Spacing between address boxes */
+  width: calc(50% - 40px);
+  /* Adjust the width for the padding and border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Optional: Adds subtle shadow for depth */
+  background-color: #fff;
+  /* Solid white background for the address boxes */
+  border-radius: 5px;
+  /* Rounded corners for the address boxes */
+}
+
+.add-address-btn {
+  width: auto;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  /* Position to the bottom-right corner of the address-section */
+  bottom: 20px;
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Optional: Adds subtle shadow for depth */
+}
+
+.footerr {
+  height: 440px;
+  background-color: #232323;
+}
+
 .footerr .firstline {
-    display: flex;
-    line-height: 160px;
-    font-size: 20px;
-    justify-content: center;
-    list-style: none;
-    color: white;
-    font-weight: 400px;
+  display: flex;
+  line-height: 160px;
+  font-size: 20px;
+  justify-content: center;
+  list-style: none;
+  color: white;
+  font-weight: 400px;
 }
+
 .copyright {
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    line-height: 200px;
-    margin-left: 579px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 200px;
+  margin-left: 579px;
 }
+
 .containerthree .products {
-    color: rgb(0, 0, 0);
-    margin-left: 650px;
-    font-weight: bolder;
-    line-height: 200px;
-    font-size: 30px;
+  color: rgb(0, 0, 0);
+  margin-left: 650px;
+  font-weight: bolder;
+  line-height: 200px;
+  font-size: 30px;
 }
+
 .footerr .firstline li {
-    margin: 0px 35px;
+  margin: 0px 35px;
 }
-.socialaccounts ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.socialaccounts ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.socialaccounts ul li{
-    list-style: none;
-    margin: 0px 35px;
-    font-size: 2rem;
-    color: #FFFFFF;
+
+.socialaccounts ul li {
+  list-style: none;
+  margin: 0px 35px;
+  font-size: 2rem;
+  color: #FFFFFF;
 }

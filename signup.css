@@ -46,7 +46,7 @@ img {
 
 .box {
     top: 130px;
-    margin:auto;
+    margin: auto;
     margin-bottom: 230px;
     position: relative;
     width: 1050px;
@@ -54,7 +54,7 @@ img {
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
-    backdrop-filter: blur(2.5px); 
+    backdrop-filter: blur(2.5px);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0, .5);
     display: flex;
     justify-content: centre;
@@ -64,8 +64,8 @@ img {
 .box .Login-Form {
     width: 100%;
     padding: 40px;
-    
-    
+
+
 }
 
 .input-box {
@@ -75,18 +75,19 @@ img {
     height: 30px;
     border-bottom: 1px solid#162938;
     margin: 55px 20px;
-    
+
 }
-.input-box2
-{
-    position:relative;
+
+.input-box2 {
+    position: relative;
     width: 40%;
     height: 30px;
     border-bottom: 1px solid#162938;
     margin: 55px 95px;
     margin-left: 50px;
 }
- .input-box2 label,
+
+.input-box2 label,
 .input-box label {
     position: absolute;
     top: 50%;
@@ -98,34 +99,41 @@ img {
     pointer-events: none;
     transition: 0.5s;
 }
-  .input-box input:focus~label,
-  .input-box input:valid~label{
-    top:5px;
-  }
-  .input-box2 input:focus~label,
-  .input-box2 input:valid~label{
-    top:5px;
-  }
-.input-box input,.input-box2 input {
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: 5px;
+}
+
+.input-box2 input:focus~label,
+.input-box2 input:valid~label {
+    top: 5px;
+}
+
+.input-box input,
+.input-box2 input {
     width: 100%;
     height: 100%;
     background: transparent;
     border: none;
     outline: none;
-    font-size:1em;
-    color:#162938;
-    font-weight:600;
-    padding:0 35px 0 5px;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
 }
 
-.labels a{
-margin-top: -800px;
-margin-left: 12px;
-margin-top: -20px;
+.labels a {
+    margin-top: -800px;
+    margin-left: 12px;
+    margin-top: -20px;
 
 }
 
 .btn {
+    justify-content: center;
+    display: flex;
+    padding: 2px;
     width: 25%;
     height: 45px;
     background-color: #162938;
@@ -137,8 +145,8 @@ margin-top: -20px;
     color: #fff;
     font-weight: 500;
     margin-left: 420px;
-    margin-top:40px ;
-    
+    margin-top: 40px;
+
 }
 
 
@@ -148,7 +156,7 @@ margin-top: -20px;
     text-align: center;
     font-weight: 500;
     margin-top: 20px;
-    
+
 }
 
 .login-register p a {
@@ -156,40 +164,45 @@ margin-top: -20px;
     text-decoration: none;
     font-weight: 600;
 }
-.login-register p a:hover
-{
-  text-decoration: none;
+
+.login-register p a:hover {
+    text-decoration: none;
 }
 
 .footerr .firstline li {
-margin: 0px 35px;
+    margin: 0px 35px;
 }
-.socialaccounts ul{
-display: flex;
-justify-content: center;
-align-items: center;
+
+.socialaccounts ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.socialaccounts ul li{
-list-style: none;
-margin: 0px 35px;
-font-size: 2rem;
-color: #FFFFFF;
+
+.socialaccounts ul li {
+    list-style: none;
+    margin: 0px 35px;
+    font-size: 2rem;
+    color: #FFFFFF;
 }
+
 .footerr {
-height: 310px;
-background-color: #232323;
-text-align: center;
-padding:20px
+    height: 310px;
+    background-color: #232323;
+    text-align: center;
+    padding: 20px
 }
+
 .footerr .firstline {
-display: flex;
-line-height: 160px;
-font-size: 20px;
-justify-content: center;
-list-style: none;
-color: white;
-font-weight: 400px;
+    display: flex;
+    line-height: 160px;
+    font-size: 20px;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-weight: 400px;
 }
+
 .footerr .copyright {
-font-size: 12px;
+    font-size: 12px;
 }

@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -13,28 +14,34 @@ body, html {
     height: 104px;
     background-color: #232323;
 }
+
 nav .left {
     font-family: 'Square Peg', sans-serif;
     font-size: 60px;
     margin-left: 81px;
     color: white;
 }
+
 nav .right {
     font-size: 16px;
     margin-left: 495px;
 }
+
 nav ul {
     display: flex;
     justify-content: center;
 }
+
 nav ul li {
     list-style: none;
 }
+
 nav ul li a {
     text-decoration: none;
     color: white;
     margin: 35px;
 }
+
 nav ul li a:hover {
     color: rgb(223, 52, 52);
     font-size: 1.05rem;
@@ -60,18 +67,21 @@ header h1 {
     color: #333;
 }
 
-.guidelines, .review-form {
+.guidelines,
+.review-form {
     background: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
 }
 
-.guidelines h2, .review-form h2 {
+.guidelines h2,
+.review-form h2 {
     color: #333;
 }
 
-.satisfaction label, .submit button {
+.satisfaction label,
+.submit button {
     display: block;
     margin-top: 10px;
 }
@@ -103,7 +113,7 @@ header h1 {
 }
 
 .contact-info {
-    
+
     background: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     padding: 20px;
@@ -114,10 +124,12 @@ header h1 {
     text-align: center;
     color: #333;
 }
+
 .footerr {
     height: 440px;
     background-color: #232323;
 }
+
 .footerr .firstline {
     display: flex;
     line-height: 160px;
@@ -127,6 +139,7 @@ header h1 {
     color: white;
     font-weight: 400px;
 }
+
 .copyright {
     color: white;
     justify-content: center;
@@ -135,6 +148,7 @@ header h1 {
     line-height: 200px;
     margin-left: 579px;
 }
+
 .containerthree .products {
     color: rgb(0, 0, 0);
     margin-left: 650px;
@@ -142,18 +156,20 @@ header h1 {
     line-height: 200px;
     font-size: 30px;
 }
+
 .footerr .firstline li {
     margin: 0px 35px;
 }
-.socialaccounts ul{
+
+.socialaccounts ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.socialaccounts ul li{
+
+.socialaccounts ul li {
     list-style: none;
     margin: 0px 35px;
     font-size: 2rem;
     color: #FFFFFF;
 }
-

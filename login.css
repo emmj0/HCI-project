@@ -54,7 +54,7 @@ img {
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
-    backdrop-filter: blur(2.5px); 
+    backdrop-filter: blur(2.5px);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0, .5);
     display: flex;
     justify-content: centre;
@@ -64,8 +64,7 @@ img {
 .box .Login-Form {
     width: 100%;
     padding: 40px;
-    
-    
+
 }
 
 .input-box {
@@ -88,29 +87,30 @@ img {
     pointer-events: none;
     transition: 0.5s;
 }
-  .input-box input:focus~label,
-  .input-box input:valid~label{
-    top:5px;
-  }
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: 5px;
+}
+
 .input-box input {
     width: 100%;
     height: 100%;
     background: transparent;
     border: none;
     outline: none;
-    font-size:1em;
-    color:#162938;
-    font-weight:600;
-    padding:0 35px 0 5px;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
 }
-.remember
-{
- 
- margin-top: -1000px;
- margin-left: 90px;
- 
- 
+
+.remember {
+    margin-top: -1000px;
+    margin-left: 90px;
 }
+
+
 
 .btn {
     width: 25%;
@@ -124,9 +124,19 @@ img {
     color: #fff;
     font-weight: 500;
     margin-left: 220px;
-    margin-top:10px ;
-    
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 .bt {
     width: 25%;
     height: 45px;
@@ -140,9 +150,13 @@ img {
     text-decoration: none;
     font-weight: 500;
     margin-left: 30px;
-    margin-top: 10px ;
-    
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
 }
+
 .b {
     width: 25%;
     height: 45px;
@@ -155,9 +169,7 @@ img {
     color: #fff;
     font-weight: 300;
     margin-left: 220px;
-    margin-top:5px ;
-
-    
+    margin-top: 5px;
 }
 
 .login-register {
@@ -166,9 +178,10 @@ img {
     text-align: center;
     font-weight: 500;
     margin-left: 220px;
-    
+
 }
-.not-register{
+
+.not-register {
     margin-left: 150px;
 }
 
@@ -177,15 +190,16 @@ img {
     text-decoration: none;
     font-weight: 600;
 }
-.login-register p a:hover
-{
-  text-decoration: none;
+
+.login-register p a:hover {
+    text-decoration: none;
 }
 
 .footerr {
     height: 440px;
     background-color: #232323;
 }
+
 .footerr .firstline {
     display: flex;
     line-height: 160px;
@@ -195,6 +209,7 @@ img {
     color: white;
     font-weight: 400px;
 }
+
 .copyright {
     color: white;
     justify-content: center;
@@ -203,6 +218,7 @@ img {
     line-height: 200px;
     margin-left: 579px;
 }
+
 .containerthree .products {
     color: rgb(0, 0, 0);
     margin-left: 650px;
@@ -210,15 +226,18 @@ img {
     line-height: 200px;
     font-size: 30px;
 }
+
 .footerr .firstline li {
     margin: 0px 35px;
 }
-.socialaccounts ul{
+
+.socialaccounts ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.socialaccounts ul li{
+
+.socialaccounts ul li {
     list-style: none;
     margin: 0px 35px;
     font-size: 2rem;

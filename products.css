@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: white;
 }
+
 .navbar {
 
     font-family: 'Poppins', sans-serif;
@@ -14,28 +16,34 @@ body {
     height: 104px;
     background-color: #232323;
 }
+
 nav .left {
     font-family: 'Square Peg', sans-serif;
     font-size: 60px;
     margin-left: 81px;
     color: white;
 }
+
 nav .right {
     font-size: 16px;
     margin-left: 495px;
 }
+
 nav ul {
     display: flex;
     justify-content: center;
 }
+
 nav ul li {
     list-style: none;
 }
+
 nav ul li a {
     text-decoration: none;
     color: white;
     margin: 35px;
 }
+
 nav ul li a:hover {
     color: rgb(223, 52, 52);
     font-size: 1.05rem;
@@ -45,31 +53,38 @@ nav ul li a:hover {
     height: 1770px;
     background-color: #D9D9D9;
 }
-.pictures ul{
+
+.pictures ul {
     display: flex;
 }
-.pictures ul li{
+
+.pictures ul li {
     list-style: none;
     margin-left: 50px;
 }
-.productname ul{
+
+.productname ul {
     justify-content: left;
     display: flex;
 }
-.productname ul li{
+
+.productname ul li {
     margin-left: 249px;
     margin-bottom: 1px;
     font-size: 20px;
     font-weight: bold;
     list-style: none;
 }
-.productprice ul{
+
+.productprice ul {
     display: flex;
 }
-.price ul{
+
+.price ul {
     display: flex;
 }
-.price ul li{
+
+.price ul li {
     color: #FA4753;
     font-size: 20px;
     margin-left: 310px;
@@ -77,6 +92,7 @@ nav ul li a:hover {
     font-weight: bold;
     list-style: none;
 }
+
 .productprice ul li {
     color: #FA4753;
     font-size: 20px;
@@ -85,7 +101,8 @@ nav ul li a:hover {
     font-weight: bold;
     list-style: none;
 }
-.productprice .addto{
+
+.productprice .addto {
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     width: 110px;
@@ -99,6 +116,7 @@ nav ul li a:hover {
     height: 410px;
     background-color: #232323;
 }
+
 .footerr .firstline {
     display: flex;
     line-height: 160px;
@@ -108,6 +126,7 @@ nav ul li a:hover {
     color: white;
     font-weight: 400px;
 }
+
 .copyright {
     color: white;
     justify-content: center;
@@ -116,6 +135,7 @@ nav ul li a:hover {
     line-height: 200px;
     margin-left: 579px;
 }
+
 .containerthree .products {
     color: rgb(0, 0, 0);
     margin-left: 650px;
@@ -123,15 +143,18 @@ nav ul li a:hover {
     line-height: 200px;
     font-size: 30px;
 }
+
 .footerr .firstline li {
     margin: 0px 35px;
 }
-.socialaccounts ul{
+
+.socialaccounts ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.socialaccounts ul li{
+
+.socialaccounts ul li {
     list-style: none;
     margin: 0px 35px;
     font-size: 2rem;
