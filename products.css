@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+.navbar {
+
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 104px;
+    background-color: #232323;
+}
+nav .left {
+    font-family: 'Square Peg', sans-serif;
+    font-size: 60px;
+    margin-left: 81px;
+    color: white;
+}
+nav .right {
+    font-size: 16px;
+    margin-left: 495px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 35px;
+}
+nav ul li a:hover {
+    color: rgb(223, 52, 52);
+    font-size: 1.05rem;
+}
+
+.containerthree {
+    height: 1770px;
+    background-color: #D9D9D9;
+}
+.pictures ul{
+    display: flex;
+}
+.pictures ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+.productname ul{
+    justify-content: left;
+    display: flex;
+}
+.productname ul li{
+    margin-left: 249px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+.productprice ul{
+    display: flex;
+}
+.price ul{
+    display: flex;
+}
+.price ul li{
+    color: #FA4753;
+    font-size: 20px;
+    margin-left: 310px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    list-style: none;
+}
+.productprice ul li {
+    color: #FA4753;
+    font-size: 20px;
+    margin-left: 235px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    list-style: none;
+}
+.productprice .addto{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: #FA4753;
+}
+
+.footerr {
+    height: 410px;
+    background-color: #232323;
+}
+.footerr .firstline {
+    display: flex;
+    line-height: 160px;
+    font-size: 20px;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-weight: 400px;
+}
+.copyright {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 200px;
+    margin-left: 579px;
+}
+.containerthree .products {
+    color: rgb(0, 0, 0);
+    margin-left: 650px;
+    font-weight: bolder;
+    line-height: 200px;
+    font-size: 30px;
+}
+.footerr .firstline li {
+    margin: 0px 35px;
+}
+.socialaccounts ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialaccounts ul li{
+    list-style: none;
+    margin: 0px 35px;
+    font-size: 2rem;
+    color: #FFFFFF;
+}

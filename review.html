@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:wght@300&display=swap"
+            rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Square+Peg&display=swap"
+            rel="stylesheet">
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <title>ECOMMERCE STORE</title>
+        <link rel="stylesheet" href="review.css">
+    </head>
+<body>
+    <nav class="navbar">
+        <div class="left">TheStore</div>
+        <div class="right">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="review.html">Reviews</a></li>
+                <li><a href="products.html"><i class="bi bi-cart"></i></a></li>
+                <li><a href="products.html"><i class="bi bi-search"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="background-image">
+        <div class="container">
+            <header>
+                <h1>Manage Reviews</h1>
+            </header>
+            <section class="guidelines">
+                <h2>Guidelines:</h2>
+                <ol>
+                    <li>You can leave feedback for sellers within 30 days</li>
+                    <li>Feedback will be published when both you and the seller have left feedback</li>
+                    <li>Appropriate pictures should be uploaded to elevate quality of review</li>
+                </ol>
+            </section>
+            <section class="review-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div class="satisfaction">
+                        <h2>Write a review:</h2>
+                        <label><input type="radio" name="satisfaction" value="strongly_satisfied"> Strongly Satisfied</label>
+                        <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label>
+                        <label><input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied</label>
+                        <label><input type="radio" name="satisfaction" value="strongly_dissatisfied"> Strongly Dissatisfied</label>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="description">
+                        <label for="description">Description:</label>
+                        <textarea id="description" name="description" placeholder="Tell us about the product......"></textarea>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="upload-picture">
+                        <label for="upload"><img src="Add.png" alt="Add Picture" /></label>
+                        <input type="file" id="upload" name="upload">
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </section>
+            <section class="contact-info">
+                <address>
+                    Contact Us<br>
+                    <span>Dha Lahore, Pakistan</span><br>
+                    <a href="tel:+92132554477">+92 312554477</a><br>
+                    <a href="mailto:thestore@gmail.com">thestore@gmail.com</a>
+                </address>
+            </section>
+        </div>
+    </div>
+    <footer class="footerr">
+        <ul class="firstline">
+            <li>Privacy policy</li>
+            <li>Refund policy</li>
+            <li>Shipping policy</li>
+            <li>Terms of service</li>
+        </ul>
+        <div class="socialaccounts">
+            <ul>
+                <li><i class="bi bi-facebook"></i></li>
+                <li><i class="bi bi-instagram"></i></li>
+                <li><i class="bi bi-twitter"></i></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            Copyright <i class="bi bi-c-circle"></i> 2022 Wholesale
+        </div>
+    </footer>
+</body>
+</html>

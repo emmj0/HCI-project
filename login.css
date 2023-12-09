@@ -1,0 +1,226 @@
+body {
+    background-image: url('imagebg.jpg');
+    height: 10vh;
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 0;
+    right: 150px;
+}
+
+h1 {
+    color: black;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+h2 {
+    color: black;
+    font-family: 'SquarePeg', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+img {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80px;
+}
+
+.box {
+    top: 130px;
+    margin: auto;
+    margin-bottom: 230px;
+    position: relative;
+    width: 650px;
+    height: 550px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(2.5px); 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0, .5);
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+}
+
+.box .Login-Form {
+    width: 100%;
+    padding: 40px;
+    
+    
+}
+
+.input-box {
+
+    position: relative;
+    width: 70%;
+    height: 50px;
+    border-bottom: 1px solid#162938;
+    margin: 55px 95px;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.5s;
+}
+  .input-box input:focus~label,
+  .input-box input:valid~label{
+    top:5px;
+  }
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size:1em;
+    color:#162938;
+    font-weight:600;
+    padding:0 35px 0 5px;
+}
+.remember
+{
+ 
+ margin-top: -1000px;
+ margin-left: 90px;
+ 
+ 
+}
+
+.btn {
+    width: 25%;
+    height: 45px;
+    background-color: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 220px;
+    margin-top:10px ;
+    
+}
+.bt {
+    width: 25%;
+    height: 45px;
+    background-color: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 10px ;
+    
+}
+.b {
+    width: 25%;
+    height: 45px;
+    background-color: #030303;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    margin-left: 220px;
+    margin-top:5px ;
+
+    
+}
+
+.login-register {
+    font-size: .9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 220px;
+    
+}
+.not-register{
+    margin-left: 150px;
+}
+
+.login-register p a {
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover
+{
+  text-decoration: none;
+}
+
+.footerr {
+    height: 440px;
+    background-color: #232323;
+}
+.footerr .firstline {
+    display: flex;
+    line-height: 160px;
+    font-size: 20px;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-weight: 400px;
+}
+.copyright {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 200px;
+    margin-left: 579px;
+}
+.containerthree .products {
+    color: rgb(0, 0, 0);
+    margin-left: 650px;
+    font-weight: bolder;
+    line-height: 200px;
+    font-size: 30px;
+}
+.footerr .firstline li {
+    margin: 0px 35px;
+}
+.socialaccounts ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialaccounts ul li{
+    list-style: none;
+    margin: 0px 35px;
+    font-size: 2rem;
+    color: #FFFFFF;
+}

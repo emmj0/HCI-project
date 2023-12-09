@@ -1,0 +1,159 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 104px;
+    background-color: #232323;
+}
+nav .left {
+    font-family: 'Square Peg', sans-serif;
+    font-size: 60px;
+    margin-left: 81px;
+    color: white;
+}
+nav .right {
+    font-size: 16px;
+    margin-left: 495px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 35px;
+}
+nav ul li a:hover {
+    color: rgb(223, 52, 52);
+    font-size: 1.05rem;
+}
+
+.background-image {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+.guidelines, .review-form {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.guidelines h2, .review-form h2 {
+    color: #333;
+}
+
+.satisfaction label, .submit button {
+    display: block;
+    margin-top: 10px;
+}
+
+.upload-picture img {
+    width: 50px;
+    height: auto;
+}
+
+.upload-picture input[type="file"] {
+    display: none;
+}
+
+.submit button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 675px;
+}
+
+.upload-picture label {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.contact-info {
+    
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contact-info address {
+    text-align: center;
+    color: #333;
+}
+.footerr {
+    height: 440px;
+    background-color: #232323;
+}
+.footerr .firstline {
+    display: flex;
+    line-height: 160px;
+    font-size: 20px;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-weight: 400px;
+}
+.copyright {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 200px;
+    margin-left: 579px;
+}
+.containerthree .products {
+    color: rgb(0, 0, 0);
+    margin-left: 650px;
+    font-weight: bolder;
+    line-height: 200px;
+    font-size: 30px;
+}
+.footerr .firstline li {
+    margin: 0px 35px;
+}
+.socialaccounts ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialaccounts ul li{
+    list-style: none;
+    margin: 0px 35px;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
